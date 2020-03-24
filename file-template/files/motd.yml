@@ -1,7 +1,7 @@
 ---
 - name: configure SOE
   hosts: all
-  remote_user: devops
+  remote_user: ec2-user
   become: true
   vars:
     - system_owner: clyde@example.com
