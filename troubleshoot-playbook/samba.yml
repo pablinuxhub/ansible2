@@ -1,7 +1,7 @@
 ---
 - name: Install a samba server
   hosts: samba_servers
-  user: devops
+  user: ec2-user
   become: true
   vars:
     install_state: installed
