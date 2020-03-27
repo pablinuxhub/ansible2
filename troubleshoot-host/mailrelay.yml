@@ -2,7 +2,7 @@
 # start of mailrelay playbook
 - name: create mail relay servers
   hosts: mailrelay
-  user: devops
+  user: ec2-user
   become: true
 
   tasks:
